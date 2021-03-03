@@ -7,7 +7,7 @@ void Led(DigitalOut &ledpin, int i);
 
 int main(void)
 {
-	led3 = 1;
+	led3 = 0;
 	led1 = 0;
 	while(1) {
 		Led(led3, 6);
